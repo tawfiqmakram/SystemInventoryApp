@@ -44,7 +44,7 @@ public class AdminService extends AdminServiceBase implements IAdminService {
             Admin=new ArrayList<AdminData>();
             a.id = 1;
         }
-        else{//set id for new user
+        else{//set id for new user .
             a.id =Admin.get(Admin.size() -1).id +1;
         }
         
